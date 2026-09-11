@@ -1,0 +1,22 @@
+*{ box-sizing: border-box;
+}
+.login {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+ul,ol,li {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
