@@ -1,30 +1,38 @@
 *{ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   
 }
-.login {
-    display: flex;
-    flex-direction: row;
 
+nav.menu-rapido {
+   display: flex;
+    flex-wrap: wrap; 
+    
+}
+nav.login{
+    display: flex;
+    justify-content: end;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
 
 }
+
 .lista{
     display: flex;
     flex-direction: column ;
     flex-wrap: wrap;
     
-
-    
     padding: 10px;
 }
-ul,ol,li {
+li,a {
     text-decoration: none;
     list-style-type: none;
-    
-}
-a{
-    text-decoration: none;
     color: black;
 }
+
 .prod2  img{
     height: 30vh;
     width: 30vh;
@@ -33,4 +41,12 @@ a{
 {
     height: 30vh;
     width: 30vh;
+}
+section{
+    display: flex;
+
+}
+.iphone{
+    width:800px;
+    height: 800px;
 }
