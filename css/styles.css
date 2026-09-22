@@ -42,6 +42,10 @@ li,a {
     height: 30vh;
     width: 30vh;
 }
+.prod3 img{
+    height: 30vh;
+    width: 30vh;
+}
 section{
     display: flex;
 
@@ -49,4 +53,9 @@ section{
 .iphone{
     width:800px;
     height: 800px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
