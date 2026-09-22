@@ -9,7 +9,7 @@ nav.menu-rapido {
     flex-wrap: wrap; 
     
 }
-nav.login{
+.login{
     display: flex;
     justify-content: end;
 }
@@ -48,7 +48,8 @@ li,a {
 }
 section{
     display: flex;
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .iphone{
     width:800px;
@@ -58,4 +59,107 @@ footer{
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login, .registro{
+    display: flex;
+    flex-direction: column;
+}
+.prod4 img{
+    height: 30vh;
+    width: 30vh;
+}
+.sin-resultados{
+    padding: 20px;
+}
+body{
+    background-color: #f4f4f4;
+    color: #1b1f3b;
+}
+
+header, footer{
+    background-color: #1b1f3b;
+    color: white;
+}
+
+header a{
+    color: white;
+}
+
+.lista{
+    background-color: white;
+    border: 1px solid #dddddd;
+}
+
+article{
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+
+button{
+    background-color: #ff6b35;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.layout{
+    display: flex;
+}
+aside{
+    width: 20%;
+}
+main{
+    width: 80%;
+}
+@media (max-width: 768px){
+    .layout{
+        flex-direction: column;
+    }
+    aside{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    .lista{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .prod1 img, .prod2 img, .prod3 img, .prod4 img{
+        height: 20vh;
+        width: 20vh;
+    }
+    .iphone{
+        width: 300px;
+        height: 300px;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 1200px){
+    section{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .prod1 img, .prod2 img, .prod3 img, .prod4 img{
+        height: 35vh;
+        width: 35vh;
+    }
 }
