@@ -34,17 +34,17 @@ li,a {
 }
 
 .prod2  img{
-    height: 30vh;
-    width: 30vh;
+    height: 180px;
+    width: 180px;
 }
 .prod1 img
 {
-    height: 30vh;
-    width: 30vh;
+    height: 180px;
+    width: 180px;
 }
 .prod3 img{
-    height: 30vh;
-    width: 30vh;
+    height: 180px;
+    width: 180px;
 }
 section{
     display: flex;
@@ -71,9 +71,9 @@ footer{
     display: flex;
     flex-direction: column;
 }
-.prod4 img{
-    height: 30vh;
-    width: 30vh;
+  .prod4 img{
+    height: 180px;
+    width: 180px;
 }
 .sin-resultados{
     padding: 20px;
@@ -140,8 +140,8 @@ main{
         justify-content: center;
     }
     .prod1 img, .prod2 img, .prod3 img, .prod4 img{
-        height: 20vh;
-        width: 20vh;
+        height: 140px;
+        width: 140px;
     }
     .iphone{
         width: 300px;
@@ -158,8 +158,8 @@ main{
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .prod1 img, .prod2 img, .prod3 img, .prod4 img{
-        height: 35vh;
-        width: 35vh;
+   .prod1 img, .prod2 img, .prod3 img, .prod4 img{
+        height: 220px;
+        width: 220px;
     }
 }
