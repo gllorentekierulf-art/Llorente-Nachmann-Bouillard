@@ -7,9 +7,21 @@
 nav.menu-rapido {
    display: flex;
     flex-wrap: wrap; 
-    
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
-.login{
+nav.menu-rapido h1{
+    margin-right: 20px;
+}
+ul.login li{
+    margin: 0 10px;
+}
+.buscador{
+    margin-left: 20px;
+}
+ul.login{
     display: flex;
     justify-content: end;
 }
@@ -34,17 +46,17 @@ li,a {
 }
 
 .prod2  img{
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
 }
 .prod1 img
 {
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
 }
 .prod3 img{
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
 }
 section{
     display: flex;
@@ -67,7 +79,7 @@ footer{
     height: 100vh;
 }
 
-.login, .registro{
+form.login, .registro{
     display: flex;
     flex-direction: column;
 }
@@ -91,7 +103,16 @@ header, footer{
 header a{
     color: white;
 }
-
+header{
+    display: flex;
+    flex-direction: column;
+}
+.grupo-logo{
+    display: flex;
+    justify-content: center;
+    order: 2;
+    width: 100%;
+}
 .lista{
     background-color: white;
     border: 1px solid #dddddd;
@@ -102,7 +123,7 @@ article{
     border: 1px solid #dddddd;
     padding: 10px;
     margin: 10px;
-    width: 250px;
+    width: 200px;
 }
 
 button{
@@ -118,7 +139,12 @@ aside{
     width: 20%;
 }
 main{
+    width: 90%;
+    margin: 0 auto;
+}
+.layout main, .layout .form-container{
     width: 80%;
+    margin: 0;
 }
 @media (max-width: 768px){
     .layout{
@@ -127,7 +153,7 @@ main{
     aside{
         width: 100%;
     }
-    main{
+    .layout main, .layout .form-container{
         width: 100%;
     }
     .lista{
@@ -140,8 +166,8 @@ main{
         justify-content: center;
     }
     .prod1 img, .prod2 img, .prod3 img, .prod4 img{
-        height: 140px;
-        width: 140px;
+        height: 120px;
+        width: 120px;
     }
     .iphone{
         width: 300px;
@@ -159,7 +185,7 @@ main{
         justify-content: space-between;
     }
    .prod1 img, .prod2 img, .prod3 img, .prod4 img{
-        height: 220px;
-        width: 220px;
+        height: 170px;
+        width: 170px;
     }
 }
