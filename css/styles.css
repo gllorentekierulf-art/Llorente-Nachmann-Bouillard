@@ -11,6 +11,7 @@ nav.menu-rapido {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 15px;
 }
 nav.menu-rapido h1{
     margin-right: 20px;
@@ -26,6 +27,7 @@ ul.login{
     justify-content: end;
 }
 
+
 .logo{
     width: 120px;
     height: 120px;
@@ -37,7 +39,10 @@ ul.login{
     flex-direction: column ;
     flex-wrap: wrap;
     
-    padding: 10px;
+    padding: 20px;
+
+    background-color: white;
+    border: 1px solid #dddddd;
 }
 li,a {
     text-decoration: none;
@@ -76,12 +81,20 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 75vh;
 }
+
+
 
 form.login, .registro{
     display: flex;
     flex-direction: column;
+    width: 90%;
+    max-width: 520px;
+
+    padding:40px;
+    background-color: white;
+    border: 1px solid #dddddd;
 }
   .prod4 img{
     height: 180px;
@@ -106,12 +119,14 @@ header a{
 header{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .grupo-logo{
     display: flex;
     justify-content: center;
     order: 2;
     width: 100%;
+    padding: 15px;
 }
 .lista{
     background-color: white;
@@ -121,16 +136,32 @@ header{
 article{
     background-color: white;
     border: 1px solid #dddddd;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
+    padding: 20px;
+    margin: 15px;
+    width: 230px;
+}
+
+article img {
+    margin-bottom: 15px;
+}
+
+article h2{
+    margin-bottom: 8px;
+}
+
+article p{
+    margin-bottom: 8px;
+}
+
+article button{
+    margin-top: 10px;
 }
 
 button{
     background-color: #ff6b35;
     color: white;
     border: none;
-    padding: 10px;
+    padding: 12px;
 }
 .layout{
     display: flex;
