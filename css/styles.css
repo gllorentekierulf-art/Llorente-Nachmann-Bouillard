@@ -24,7 +24,7 @@ ul.login li{
 }
 ul.login{
     display: flex;
-    justify-content: end;
+    flex-direction: flex-end;
 }
 
 
@@ -42,7 +42,7 @@ ul.login{
     padding: 20px;
 
     background-color: white;
-    border: 1px solid #dddddd;
+    border: solid 1xp #dddddd;
 }
 li,a {
     text-decoration: none;
@@ -94,7 +94,7 @@ form.login, .registro{
 
     padding:40px;
     background-color: white;
-    border: 1px solid #dddddd;
+    border: solid 1xp #dddddd;
 }
   .prod4 img{
     height: 180px;
@@ -130,12 +130,12 @@ header{
 }
 .lista{
     background-color: white;
-    border: 1px solid #dddddd;
+    border: solid 1xp #dddddd;
 }
 
 article{
     background-color: white;
-    border: 1px solid #dddddd;
+    border: solid 1p #dddddd;x 
     padding: 20px;
     margin: 15px;
     width: 230px;
