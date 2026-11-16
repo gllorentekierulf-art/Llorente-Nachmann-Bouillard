@@ -16,17 +16,17 @@ nav.menu-rapido {
 nav.menu-rapido h1{
     margin-right: 20px;
 }
-ul.login li{
+
+.menu-login li{
     margin: 0 10px;
 }
 .buscador{
     margin-left: 20px;
 }
-ul.login{
+.menu-login{
     display: flex;
-    flex-direction: flex-end;
+    justify-content; flex-end;
 }
-
 
 .logo{
     width: 120px;
@@ -42,7 +42,7 @@ ul.login{
     padding: 20px;
 
     background-color: white;
-    border: solid 1xp #dddddd;
+    border: solid 1px #dddddd;
 }
 li,a {
     text-decoration: none;
@@ -68,7 +68,7 @@ section{
     flex-wrap: wrap;
     justify-content: center;
 }
-.iphone{
+.producto-foto img{.
     width:800px;
     height: 800px;
 }
@@ -86,7 +86,7 @@ footer{
 
 
 
-form.login, .registro{
+.form-login, .form-registro{.
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -128,14 +128,14 @@ header{
     width: 100%;
     padding: 15px;
 }
-.lista{
-    background-color: white;
-    border: solid 1xp #dddddd;
-}
+
+
+
+
 
 article{
     background-color: white;
-    border: solid 1p #dddddd;x 
+    border: solid 1px #dddddd ; .
     padding: 20px;
     margin: 15px;
     width: 230px;
@@ -157,7 +157,7 @@ article button{
     margin-top: 10px;
 }
 
-button{
+button, .boton{. 
     background-color: #ff6b35;
     color: white;
     border: none;
@@ -200,7 +200,7 @@ main{
         height: 120px;
         width: 120px;
     }
-    .iphone{
+    .producto-foto img{. 
         width: 300px;
         height: 300px;
     }
@@ -219,4 +219,11 @@ main{
         height: 170px;
         width: 170px;
     }
+}
+
+.boton{
+    display: inline-block;
+}
+.item-saludo, .item-logout{
+    display: none;
 }
