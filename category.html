@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
      <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>NorImports</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -13,14 +13,19 @@
     </div>
     <nav class="menu-rapido">
         <a href="./index.html"><h1>NorImports</h1></a>
-        <ul class="login">
+
+        <ul class="menu-login">
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./login.html">Login</a></li>
-            <li><a href="./register.html">Register</a></li>
+            <li class="item-login"><a href="./login.html">Login</a></li>
+            <li class="item-registro"><a href="./register.html">Register</a></li>
+            <li class="item-saludo"></li>
+            <li class="item-logout"><a class ="link-logout" href="./index.html>logout</a></li>
         </ul>
-        <form class="buscador" action="./search.html">
-            <input type="search" name="Buscar">
+
+        <form class="buscador" action="./search-results.html" method="GET">
+            <input type="search" name="Buscar" class="campo-bucar">
             <button type="submit">Buscar</button>
+            <p class="error-buscador",</p>
         </form>
     </nav>
 </header>
