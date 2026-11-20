@@ -35,11 +35,13 @@
             </nav>
              </aside>
            <div class="form-container">
-                <form class="login" action="index.html">
-                    <input type="email" name="email" placeholder="Email">
-                    <input type="password" name="password" placeholder="Contraseña">
-                    <button type="submit">ingresar</button>
-                    <a href="./register.html">No tengo cuenta</a>
+                <form class="form-login" action="./index.html" method="GET">
+    <input type="email" name="email" class="campo-email" placeholder="Email">
+    <p class="error-email"></p>
+    <input type="password" name="password" class="campo-password" placeholder="Contraseña">
+    <p class="error-password"></p>
+    <button type="submit">ingresar</button>
+    <a href="./register.html">No tengo cuenta</a>
                 </form>
             </div>
                </div>
