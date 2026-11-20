@@ -35,13 +35,16 @@
             </nav>
             </aside>
             <div class="form-container">
-                <form class="registro" action="login.html">
-                    <input type="email" name="email" placeholder="Email">
-                    <input type="password" name="password" placeholder="Contraseña">
-                    <input type="password" name="repetir-password" placeholder="Repetir contraseña">
-                    <input type="checkbox" name="terminos"> <span>Acepto términos y condiciones</span>
-                    <button type="submit">Registrarme</button>
-                    <a href="./login.html">Ya tengo una cuenta</a>
+                <form class="form-registro" action="./login.html" method="GET">
+    <input type="email" name="email" class="campo-email" placeholder="Email">
+    <p class="error-email"></p>
+    <input type="password" name="password" class="campo-password" placeholder="Contraseña">
+    <p class="error-password"></p>
+    <input type="password" name="repetir-password" class="campo-repetir" placeholder="Repetir contraseña">
+    <p class="error-repetir"></p>
+    <input type="checkbox" name="terminos"> <span>Acepto términos y condiciones</span>
+    <button type="submit">Registrarme</button>
+    <a href="./login.html">Ya tengo una cuenta</a>
                 </form>
             </div>
               </div>
